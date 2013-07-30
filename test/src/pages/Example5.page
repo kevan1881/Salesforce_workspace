@@ -1,0 +1,24 @@
+<!-- my id : 003A000000GsHB5 -->
+<apex:page standardController="Contact">
+	<apex:SectionHeader title="Contact" subtitle="Contact details" />
+	<apex:form >
+		 <div class="apexp">
+	     	<div class="bSubBlock bPageBlock secondaryPalette" >		     	  		
+	            <div class="lbBody">
+					<table cellspacing="0" cellpadding="0" border="0">
+		     			<tbody>
+						<tr>
+							<!--  <td rowspan="2"><apex:image url="{!URLFOR($Resource.Contacts,'genelia.jpg')}"/></td> -->
+							<td rowspan="2"><apex:image url="{!URLFOR($Resource.genelia)}"/></td>
+							<td>Firstname: <b>{!contact.FirstName}</b></td>
+						</tr>
+						<tr>
+							<td>Lastname: <b>{!contact.LastName}</b></td>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</apex:form>
+</apex:page>

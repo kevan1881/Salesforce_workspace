@@ -1,0 +1,19 @@
+<apex:page Controller="ContactAccountInsertController" >
+<!-- Begin Default Content REMOVE THIS -->
+	<apex:pageBlock >
+	<apex:PageMessages />
+	<apex:form >
+	<apex:pageBlockSection >
+	
+		<apex:inputfield value="{!acc.name}" /><p/>
+		<apex:inputfield value="{!acc.BillingStreet}" /><p/>
+		<apex:inputfield value="{!con.firstname}" /><p/>
+		<apex:inputfield value="{!con.lastname}" /><p/>
+
+		<apex:commandButton value="Save" action="{!save}" />
+	
+	</apex:pageBlockSection>
+	</apex:form>
+	</apex:pageBlock>
+<!-- End Default Content REMOVE THIS -->
+</apex:page>
